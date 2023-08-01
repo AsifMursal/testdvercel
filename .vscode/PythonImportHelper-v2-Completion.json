@@ -277,7 +277,7 @@
         "kind": 5,
         "importPath": "testpro.settings",
         "description": "testpro.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os",
         "detail": "testpro.settings",
         "documentation": {}
     },
@@ -286,7 +286,7 @@
         "kind": 5,
         "importPath": "testpro.settings",
         "description": "testpro.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')",
         "detail": "testpro.settings",
         "documentation": {}
     },
@@ -295,7 +295,7 @@
         "kind": 5,
         "importPath": "testpro.settings",
         "description": "testpro.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')\n# MEDIA_URLS ='/media/'",
         "detail": "testpro.settings",
         "documentation": {}
     },
@@ -304,7 +304,7 @@
         "kind": 5,
         "importPath": "testpro.settings",
         "description": "testpro.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')\n# MEDIA_URLS ='/media/'\n# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
         "detail": "testpro.settings",
         "documentation": {}
     },
@@ -313,7 +313,16 @@
         "kind": 5,
         "importPath": "testpro.settings",
         "description": "testpro.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nimport os\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')\n# MEDIA_URLS ='/media/'\n# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "testpro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "testpro.settings",
+        "description": "testpro.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')\n# MEDIA_URLS ='/media/'\n# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
         "detail": "testpro.settings",
         "documentation": {}
     },
